@@ -1,0 +1,31 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 20px;
+}
