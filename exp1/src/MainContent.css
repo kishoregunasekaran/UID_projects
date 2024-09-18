@@ -1,0 +1,11 @@
+.main-content {
+    padding: 20px;
+}
+
+.main-content section {
+    margin-bottom: 40px;
+}
+
+.main-content h2 {
+    color: #333;
+}
