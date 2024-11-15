@@ -1,0 +1,129 @@
+/* General app container styling */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Form container styling */
+form {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+input {
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Unordered list for displaying items */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+/* Align buttons inside each list item */
+li .edit-btn,
+li .delete-btn {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+li .edit-btn:hover {
+  background-color: #218838;
+}
+
+li .delete-btn {
+  background-color: #dc3545;
+}
+
+li .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  input {
+    margin: 6px 0;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 1em;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+}
