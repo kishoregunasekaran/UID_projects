@@ -1,0 +1,52 @@
+/* Full-width top image */
+.top-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  max-height: 300px; /* Adjust this value to set the desired height */
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f1f2f6;
+  padding: 20px 0;
+}
+
+.search-container {
+  margin-top: 20px; /* Add margin to move it below the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  width: 330px;
+  font-size: 1.2em;
+  border-radius: px;
+  border: 1px solid #dcdde1;
+  margin-right: 10px;
+  margin-left:130px;
+}
+
+button {
+  background-color: #005ebd;
+  font-size: 1.0em;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left:100px;
+  margin-top:30px;
+}
+
+button:hover {
+  background-color: #1d8905;
+}
+.background{
+  background-image: url("weather_bg.png");
+}
